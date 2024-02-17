@@ -1,0 +1,9 @@
+﻿.wrapper{
+    width: 800px;
+    border: 4px groove blue;
+    margin: auto;
+}
+
+h1,h2,h3{
+    text-align:center;
+}

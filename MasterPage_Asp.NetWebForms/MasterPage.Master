@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MasterPage_Asp.NetWebForms.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="Css/Style1.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="header">
+                <h1>This is The Header Of My Web Site</h1>
+            </div>
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div class="footer">
+                <h3>This is The Footer Portion Of my webSite</h3>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
